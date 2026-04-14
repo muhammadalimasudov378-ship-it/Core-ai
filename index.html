@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core AI — ядро автоматизации вашего бизнеса</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0f1e 0%, #0f172a 100%);
+            color: #fff;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .hero p {
+            font-size: 20px;
+            color: #94a3b8;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .price {
+            font-size: 48px;
+            font-weight: bold;
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+        .price span {
+            font-size: 20px;
+            color: #94a3b8;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #60a5fa, #a855f7);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(96,165,250,0.4);
+        }
+        .features {
+            padding: 60px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #60a5fa;
+        }
+        .feature p {
+            color: #94a3b8;
+        }
+        .demo {
+            background: rgba(96,165,250,0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .demo h3 {
+            margin-bottom: 20px;
+        }
+        .demo-chat {
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin: 20px auto 0;
+            font-size: 14px;
+        }
+        .demo-chat .user {
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+        .demo-chat .bot {
+            color: #a855f7;
+            margin-bottom: 10px;
+        }
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #64748b;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 18px; }
+            .price { font-size: 36px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Core AI</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="hero">
+                <h1>Ядро автоматизации вашего бизнеса</h1>
+                <p>Искусственный интеллект, который работает вместо менеджера. Отвечает клиентам мгновенно, записывает на приём, сохраняет заявки.</p>
+                <div class="price">15 000 ₽ <span>/ месяц</span></div>
+                <a href="https://t.me/sto_check_bot" class="btn" target="_blank">🚀 Подключить бизнес</a>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <h3>⚡ Мгновенный ответ</h3>
+                    <p>Клиент пишет — бот отвечает сразу. Никто не уходит к конкурентам.</p>
+                </div>
+                <div class="feature">
+                    <h3>🔧 Точная диагностика</h3>
+                    <p>DeepSeek-R1 анализирует симптомы и выдаёт возможные причины.</p>
+                </div>
+                <div class="feature">
+                    <h3>📅 Запись в сервис</h3>
+                    <p>Встроенная кнопка записи — клиент оставляет телефон, мастер перезванивает.</p>
+                </div>
+                <div class="feature">
+                    <h3>📊 Админ-панель</h3>
+                    <p>Все заявки в одном месте: видите, кто, когда и с какой проблемой обратился.</p>
+                </div>
+                <div class="feature">
+                    <h3>🤖 Работает 24/7</h3>
+                    <p>Бот не спит, не болеет, не уходит в отпуск. Всегда на связи.</p>
+                </div>
+                <div class="feature">
+                    <h3>💼 Отчёты мастеру</h3>
+                    <p>Каждый диалог отправляется мастеру в Telegram — диагноз, контакт клиента.</p>
+                </div>
+            </div>
+
+            <div class="demo">
+                <h3>📱 Как это работает</h3>
+                <div class="demo-chat">
+                    <div class="user">👤 Клиент: машина не заводится, щелчки</div>
+                    <div class="bot">🤖 Core AI: Включай зажигание. Слушай стартер. Докладывай: крутит или щелчки?</div>
+                    <div class="user">👤 Клиент: тишина</div>
+                    <div class="bot">🤖 Core AI: Проверь клеммы АКБ. Замыкай массу на стартер.</div>
+                    <div class="user">👤 Клиент: сработало, завелась</div>
+                    <div class="bot">🤖 Core AI: Втягивающее реле. Записаться на замену?</div>
+                </div>
+                <p style="margin-top: 20px; font-size: 14px; color: #64748b;">⬆️ Реальный диалог с ботом ⬆️</p>
+            </div>
+
+            <div style="text-align: center; padding: 40px 0;">
+                <a href="https://t.me/sto_check_bot" class="btn" target="_blank">🚀 Начать использовать Core AI</a>
+                <p style="margin-top: 20px; color: #64748b;">Бот уже работает в Telegram. Подключайте бизнес за 5 минут.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Core AI — искусственный интеллект для вашего бизнеса</p>
+            <p style="margin-top: 10px; font-size: 14px;">По вопросам: Telegram — @m_masudov</p>
+        </div>
+    </footer>
+</body>
+</html>
